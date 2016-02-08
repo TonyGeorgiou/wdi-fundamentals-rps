@@ -22,16 +22,27 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
-    // Write an expression that operates on a variable called `move`
-    // If a `move` has a value, your expression should evaluate to that value.
-    // However, if `move` is not specified / is null, your expression should equal `getInput()`.
+var playerMove = Math.();
+    if (playerMove  3,5,7) {
+        return "rock";
+    } else if (playerMove 2,4,6 ) {
+        return "paper";
+    } else {playerMove 1,8,9) {
+        return "scissors";
+    }
+
     return /* Your Expression */;
 }
 
 function getComputerMove(move) {
-    // Write an expression that operates on a variable called `move`
-    // If a `move` has a value, your expression should evaluate to that value.
-    // However, if `move` is not specified / is null, your expression should equal `randomPlay()`.
+var computerMove = Math.random();
+    if (computerMove < 0.33 ) {
+        return "rock";
+    } else if (computerMove < 0.66 ) {
+        return "paper";
+    } else {
+        return "scissors";
+
     return /* Your Expression */;
 }
 
